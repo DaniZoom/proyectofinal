@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,400;1,100&display=swap");
+.menu-central {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.menu-central li {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0 1.3rem 0 1.3rem;
+  list-style: none;
+  display: inline;
+}
+@media screen and (min-width: 1300px) {
+  .menu-central li {
+    font-size: 1.7rem;
+    padding: 0 2.3rem 0 2.3rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .menu-central li {
+    font-size: 1.2rem;
+    padding: 0 1.1rem 0 1.1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .menu-central li {
+    font-size: 1.1rem;
+    padding: 0 1rem 0 1rem;
+  }
+}
+.menu-central li a {
+  text-decoration: none;
+  color: #bcaa99;
+}
+.menu-central li a:hover {
+  color: #8e5572;
+}
+
+.presentacion h1 {
+  font-family: "DM Serif Display", serif;
+  color: #8e5572;
+  font-size: 3.5rem;
+  margin: 0;
+  text-shadow: 1.5px 1.5px 8px #443850;
+}
+@media screen and (min-width: 1300px) {
+  .presentacion h1 {
+    font-size: 4.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .presentacion h1 {
+    font-size: 3.1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .presentacion h1 {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .presentacion h1 {
+    font-size: 3rem;
+    padding: 0 1rem 0 2.5rem;
+  }
+}
+
+.card-datos {
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+@media screen and (max-width: 550px) {
+  .card-datos {
+    width: 100%;
+    height: 150vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+  }
+}
+.card-datos .img-perfil {
+  width: 12rem;
+  border-radius: 50%;
+}
+@media screen and (min-width: 1300px) {
+  .card-datos .img-perfil {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card-datos .img-perfil {
+    width: 10rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card-datos .img-perfil {
+    width: 9rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card-datos .img-perfil {
+    margin: 4%;
+    display: flex;
+  }
+}
+.card-datos .div-datos {
+  background-color: #bbbe64;
+  width: 28rem;
+  height: 28rem;
+  border-radius: 50%;
+  box-shadow: 0rem 0rem 2rem #bcaa99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+@media screen and (min-width: 1300px) {
+  .card-datos .div-datos {
+    width: 33rem;
+    height: 33rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card-datos .div-datos {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card-datos .div-datos {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card-datos .div-datos {
+    margin: 4%;
+  }
+}
+.card-datos .div-datos .datos {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+@media screen and (min-width: 1300px) {
+  .card-datos .div-datos .datos {
+    padding: 0;
+    display: flex;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card-datos .div-datos .datos {
+    padding: 0;
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card-datos .div-datos .datos {
+    padding: 0;
+    display: flex;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card-datos .div-datos .datos {
+    padding: 0;
+    display: flex;
+  }
+}
+.card-datos .div-datos .datos li {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  color: #443850;
+  font-size: 1.2rem;
+  padding: 0.3rem 0 0.3rem 0;
+  list-style: none;
+  z-index: 1;
+}
+@media screen and (min-width: 1300px) {
+  .card-datos .div-datos .datos li {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card-datos .div-datos .datos li {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card-datos .div-datos .datos li {
+    font-size: 0.8rem;
+  }
+}
+
+.experienciayhabilidades {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 550px) {
+  .experienciayhabilidades {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+  }
+}
+.experienciayhabilidades .experiencia, .experienciayhabilidades .habilidades {
+  width: 60%;
+  background-color: #bcaa99;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem 4rem 1rem;
+  margin: 0 5% 0 5%;
+}
+@media screen and (min-width: 1300px) {
+  .experienciayhabilidades .experiencia, .experienciayhabilidades .habilidades {
+    border-radius: 0.7rem;
+    padding: 6rem 1rem 6rem 1rem;
+    margin: 0 5% 0 5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .experienciayhabilidades .experiencia, .experienciayhabilidades .habilidades {
+    border-radius: 0.5rem;
+    padding: 2.5rem 0.8rem 2.5rem 0.8rem;
+    margin: 0 5% 0 5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .experienciayhabilidades .experiencia, .experienciayhabilidades .habilidades {
+    padding: 2rem 0.7rem 2rem 0.7rem;
+    margin: 0 5% 0 5%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .experienciayhabilidades .experiencia, .experienciayhabilidades .habilidades {
+    margin: 2rem 0 2rem 0;
+  }
+}
+.experienciayhabilidades .experiencia h2, .experienciayhabilidades .habilidades h2 {
+  font-family: "DM Serif Display", serif;
+  color: #443850;
+  text-shadow: 1px 1px 2px #8e5572;
+  font-size: 2.2rem;
+}
+@media screen and (min-width: 1300px) {
+  .experienciayhabilidades .experiencia h2, .experienciayhabilidades .habilidades h2 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .experienciayhabilidades .experiencia h2, .experienciayhabilidades .habilidades h2 {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .experienciayhabilidades .experiencia h2, .experienciayhabilidades .habilidades h2 {
+    font-size: 1.7rem;
+  }
+}
+.experienciayhabilidades .experiencia ul, .experienciayhabilidades .habilidades ul {
+  padding: 0;
+  margin: 0;
+}
+.experienciayhabilidades .experiencia ul li, .experienciayhabilidades .habilidades ul li {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  color: #443850;
+  font-size: 1rem;
+  font-weight: 500;
+  list-style: none;
+  padding: 0.8rem 0 0.8rem 0;
+}
+@media screen and (min-width: 1300px) {
+  .experienciayhabilidades .experiencia ul li, .experienciayhabilidades .habilidades ul li {
+    font-size: 1.2rem;
+    padding: 1rem 0 1rem 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .experienciayhabilidades .experiencia ul li, .experienciayhabilidades .habilidades ul li {
+    font-size: 0.8rem;
+    padding: 0.7rem 0 0.7rem 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .experienciayhabilidades .experiencia ul li, .experienciayhabilidades .habilidades ul li {
+    font-size: 0.7rem;
+    padding: 0.6rem 0 0.6rem 0;
+  }
+}
+.experienciayhabilidades .experiencia ul li em, .experienciayhabilidades .habilidades ul li em {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0 0 0 6px;
+}
+@media screen and (min-width: 1300px) {
+  .experienciayhabilidades .experiencia ul li em, .experienciayhabilidades .habilidades ul li em {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .experienciayhabilidades .experiencia ul li em, .experienciayhabilidades .habilidades ul li em {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .experienciayhabilidades .experiencia ul li em, .experienciayhabilidades .habilidades ul li em {
+    font-size: 0.6rem;
+  }
+}
+
+.contacto {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.contacto .icon-contacto {
+  list-style: none;
+  display: inline;
+}
+.contacto .icon-contacto .icon-tel, .contacto .icon-contacto .icon-mail, .contacto .icon-contacto .icon-linkedin {
+  color: #8e5572;
+  font-size: 2.1rem;
+  text-shadow: 0 0 0.2rem #8e5572;
+  margin: 5rem;
+}
+.contacto .icon-contacto .icon-tel:hover, .contacto .icon-contacto .icon-mail:hover, .contacto .icon-contacto .icon-linkedin:hover {
+  color: #443850;
+  font-size: 2.1rem;
+  text-shadow: 0 0 0.2rem #443850;
+}
+@media screen and (min-width: 1300px) {
+  .contacto .icon-contacto .icon-tel, .contacto .icon-contacto .icon-mail, .contacto .icon-contacto .icon-linkedin {
+    font-size: 2.7rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contacto .icon-contacto .icon-tel, .contacto .icon-contacto .icon-mail, .contacto .icon-contacto .icon-linkedin {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contacto .icon-contacto .icon-tel, .contacto .icon-contacto .icon-mail, .contacto .icon-contacto .icon-linkedin {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .contacto .icon-contacto .icon-tel, .contacto .icon-contacto .icon-mail, .contacto .icon-contacto .icon-linkedin {
+    margin: 8rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contacto .icon-contacto .icon-tel, .contacto .icon-contacto .icon-mail, .contacto .icon-contacto .icon-linkedin {
+    margin: 3.5rem;
+  }
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline;
+}
+
+.contenedor {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #443850;
+  width: 100%;
+  height: 3.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1300px) {
+  .nav {
+    height: 3.8rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nav {
+    height: 2.8rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .nav {
+    height: 2.7rem;
+  }
+}
+
+.sec-presentacion {
+  background-color: #bcaa99;
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 550px) {
+  .sec-presentacion {
+    width: 100%;
+    height: 150vw;
+  }
+}
+
+.sec-datos {
+  background-color: #C7DDC7;
+  width: 100%;
+  height: 60vw;
+  display: flex;
+}
+@media screen and (max-width: 550px) {
+  .sec-datos {
+    width: 100%;
+    height: 150vw;
+    display: flex;
+  }
+}
+
+.sec-experiencia-habilidades {
+  background-color: #8e5572;
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 550px) {
+  .sec-experiencia-habilidades {
+    width: 100%;
+    height: 150vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.footer {
+  background-color: #bbbe64;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+@media screen and (min-width: 1300px) {
+  .footer {
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer {
+    height: 4rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
